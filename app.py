@@ -24,7 +24,12 @@ import numpy as np
 import pandas as pd
 from PIL import Image
 import streamlit as st
+import __main__
 
+def balanced_readout_mod4(x):
+    return int(x) % 4
+
+__main__.balanced_readout_mod4 = balanced_readout_mod4
 # Import preprocessing utility
 import preprocess
 
