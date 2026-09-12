@@ -1,0 +1,43 @@
+{
+  "classes": {
+    "0": "glioma",
+    "1": "meningioma",
+    "2": "no_tumor",
+    "3": "pituitary"
+  },
+  "class_to_idx": {
+    "glioma": 0,
+    "meningioma": 1,
+    "no_tumor": 2,
+    "pituitary": 3
+  },
+  "total_images": 120,
+  "image_shape": [
+    64,
+    64,
+    1
+  ],
+  "extracted_feature_dim": 59,
+  "pca_components": 4,
+  "pca_explained_variance_ratio": [
+    0.22942492365837097,
+    0.1281828135251999,
+    0.09962821006774902,
+    0.06714002788066864
+  ],
+  "pca_cumulative_variance": 0.5243759751319885,
+  "train_samples": 96,
+  "test_samples": 24,
+  "class_distribution_train": {
+    "no_tumor": 24,
+    "glioma": 24,
+    "pituitary": 24,
+    "meningioma": 24
+  },
+  "class_distribution_test": {
+    "no_tumor": 6,
+    "pituitary": 6,
+    "meningioma": 6,
+    "glioma": 6
+  }
+}

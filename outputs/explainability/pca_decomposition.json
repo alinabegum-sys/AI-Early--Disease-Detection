@@ -1,0 +1,230 @@
+{
+  "PC1": {
+    "variance_explained_ratio": 0.22942492365837097,
+    "top_positive_loadings": [
+      {
+        "feature": "Global_Std",
+        "category": "Global Statistics",
+        "weight": 0.27701663970947266
+      },
+      {
+        "feature": "Global_Mean",
+        "category": "Global Statistics",
+        "weight": 0.2755468189716339
+      },
+      {
+        "feature": "Grad_X_Mean",
+        "category": "Edge Gradients",
+        "weight": 0.26737529039382935
+      },
+      {
+        "feature": "Grad_Y_Std",
+        "category": "Edge Gradients",
+        "weight": 0.26662617921829224
+      },
+      {
+        "feature": "Grad_X_Std",
+        "category": "Edge Gradients",
+        "weight": 0.2646123468875885
+      }
+    ],
+    "top_negative_loadings": [
+      {
+        "feature": "Hist_Bin_08",
+        "category": "Intensity Distribution",
+        "weight": -0.21413558721542358
+      },
+      {
+        "feature": "Hist_Bin_09",
+        "category": "Intensity Distribution",
+        "weight": -0.17796947062015533
+      },
+      {
+        "feature": "Patch_R2C0_Mean",
+        "category": "Spatial Patch Statistics",
+        "weight": -0.06753190606832504
+      },
+      {
+        "feature": "Patch_R2C0_Std",
+        "category": "Spatial Patch Statistics",
+        "weight": -0.06606230139732361
+      },
+      {
+        "feature": "Hist_Bin_02",
+        "category": "Intensity Distribution",
+        "weight": -0.02708902768790722
+      }
+    ]
+  },
+  "PC2": {
+    "variance_explained_ratio": 0.1281828135251999,
+    "top_positive_loadings": [
+      {
+        "feature": "Patch_R1C1_Std",
+        "category": "Spatial Patch Statistics",
+        "weight": 0.3003861606121063
+      },
+      {
+        "feature": "Patch_R1C1_Mean",
+        "category": "Spatial Patch Statistics",
+        "weight": 0.3002912998199463
+      },
+      {
+        "feature": "Hist_Bin_14",
+        "category": "Intensity Distribution",
+        "weight": 0.3000153601169586
+      },
+      {
+        "feature": "Hist_Bin_13",
+        "category": "Intensity Distribution",
+        "weight": 0.25594839453697205
+      },
+      {
+        "feature": "Patch_R0C1_Std",
+        "category": "Spatial Patch Statistics",
+        "weight": 0.1534351110458374
+      }
+    ],
+    "top_negative_loadings": [
+      {
+        "feature": "Patch_R1C2_Mean",
+        "category": "Spatial Patch Statistics",
+        "weight": -0.28775471448898315
+      },
+      {
+        "feature": "Patch_R1C2_Std",
+        "category": "Spatial Patch Statistics",
+        "weight": -0.28686532378196716
+      },
+      {
+        "feature": "Hist_Bin_16",
+        "category": "Intensity Distribution",
+        "weight": -0.2829055190086365
+      },
+      {
+        "feature": "Patch_R1C3_Std",
+        "category": "Spatial Patch Statistics",
+        "weight": -0.2519376575946808
+      },
+      {
+        "feature": "Hist_Bin_15",
+        "category": "Intensity Distribution",
+        "weight": -0.24571412801742554
+      }
+    ]
+  },
+  "PC3": {
+    "variance_explained_ratio": 0.09962821006774902,
+    "top_positive_loadings": [
+      {
+        "feature": "Patch_R2C2_Mean",
+        "category": "Spatial Patch Statistics",
+        "weight": 0.40570491552352905
+      },
+      {
+        "feature": "Patch_R2C2_Std",
+        "category": "Spatial Patch Statistics",
+        "weight": 0.40561407804489136
+      },
+      {
+        "feature": "Patch_R2C1_Std",
+        "category": "Spatial Patch Statistics",
+        "weight": 0.4055700898170471
+      },
+      {
+        "feature": "Patch_R2C1_Mean",
+        "category": "Spatial Patch Statistics",
+        "weight": 0.40382832288742065
+      },
+      {
+        "feature": "Hist_Bin_06",
+        "category": "Intensity Distribution",
+        "weight": 0.16936352849006653
+      }
+    ],
+    "top_negative_loadings": [
+      {
+        "feature": "Patch_R1C3_Std",
+        "category": "Spatial Patch Statistics",
+        "weight": -0.14880353212356567
+      },
+      {
+        "feature": "Patch_R1C2_Std",
+        "category": "Spatial Patch Statistics",
+        "weight": -0.14704886078834534
+      },
+      {
+        "feature": "Patch_R1C2_Mean",
+        "category": "Spatial Patch Statistics",
+        "weight": -0.14571289718151093
+      },
+      {
+        "feature": "Hist_Bin_16",
+        "category": "Intensity Distribution",
+        "weight": -0.13997286558151245
+      },
+      {
+        "feature": "Patch_R1C3_Mean",
+        "category": "Spatial Patch Statistics",
+        "weight": -0.13593041896820068
+      }
+    ]
+  },
+  "PC4": {
+    "variance_explained_ratio": 0.06714002788066864,
+    "top_positive_loadings": [
+      {
+        "feature": "Hist_Bin_02",
+        "category": "Intensity Distribution",
+        "weight": 0.31032660603523254
+      },
+      {
+        "feature": "Hist_Bin_04",
+        "category": "Intensity Distribution",
+        "weight": 0.3021537661552429
+      },
+      {
+        "feature": "Patch_R0C0_Mean",
+        "category": "Spatial Patch Statistics",
+        "weight": 0.29467689990997314
+      },
+      {
+        "feature": "Patch_R0C0_Std",
+        "category": "Spatial Patch Statistics",
+        "weight": 0.29131484031677246
+      },
+      {
+        "feature": "Patch_R0C3_Mean",
+        "category": "Spatial Patch Statistics",
+        "weight": 0.23121675848960876
+      }
+    ],
+    "top_negative_loadings": [
+      {
+        "feature": "Hist_Bin_01",
+        "category": "Intensity Distribution",
+        "weight": -0.3026372194290161
+      },
+      {
+        "feature": "Hist_Bin_03",
+        "category": "Intensity Distribution",
+        "weight": -0.2847028970718384
+      },
+      {
+        "feature": "Hist_Bin_05",
+        "category": "Intensity Distribution",
+        "weight": -0.27205318212509155
+      },
+      {
+        "feature": "Hist_Bin_07",
+        "category": "Intensity Distribution",
+        "weight": -0.19901452958583832
+      },
+      {
+        "feature": "Patch_R0C2_Mean",
+        "category": "Spatial Patch Statistics",
+        "weight": -0.09121549129486084
+      }
+    ]
+  }
+}

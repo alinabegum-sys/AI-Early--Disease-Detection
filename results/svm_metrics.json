@@ -1,0 +1,75 @@
+{
+  "model_type": "Classical Support Vector Machine (SVC)",
+  "kernel": "rbf",
+  "c_parameter": 1.0,
+  "gamma": "scale",
+  "disclaimer": "Experimental research classification baseline only. Not for clinical diagnosis.",
+  "input_features": "4D PCA of Classical MRI Features",
+  "train_samples": 96,
+  "test_samples": 24,
+  "training_time_ms": 2.9975000070407987,
+  "total_inference_time_ms": 0.14762498904019594,
+  "per_sample_inference_latency_ms": 0.006151041210008164,
+  "overall_metrics": {
+    "accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall_sensitivity": 1.0,
+    "macro_specificity": 1.0,
+    "macro_f1_score": 1.0,
+    "weighted_precision": 1.0,
+    "weighted_recall": 1.0,
+    "weighted_f1_score": 1.0
+  },
+  "per_class_metrics": {
+    "glioma": {
+      "precision": 1.0,
+      "recall_sensitivity": 1.0,
+      "specificity": 1.0,
+      "f1_score": 1.0
+    },
+    "meningioma": {
+      "precision": 1.0,
+      "recall_sensitivity": 1.0,
+      "specificity": 1.0,
+      "f1_score": 1.0
+    },
+    "no_tumor": {
+      "precision": 1.0,
+      "recall_sensitivity": 1.0,
+      "specificity": 1.0,
+      "f1_score": 1.0
+    },
+    "pituitary": {
+      "precision": 1.0,
+      "recall_sensitivity": 1.0,
+      "specificity": 1.0,
+      "f1_score": 1.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      6,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      6,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      6
+    ]
+  ]
+}
